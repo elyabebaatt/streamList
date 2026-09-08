@@ -31,11 +31,9 @@ Documento: A definir
 
 Framework: Bootstrap 5
 
-O Bootstrap 5 será utilizado como framework CSS principal do projeto para auxiliar na construção das interfaces e dos layouts responsivos.
+O projeto utilizará o Bootstrap 5 como framework CSS principal para a criação dos layouts e componentes da aplicação.
 
-A escolha do Bootstrap se deve à sua ampla utilização no desenvolvimento web, documentação, sistema de grid responsivo e disponibilidade de componentes prontos. Esses recursos permitirão desenvolver uma interface consistente para diferentes tamanhos de tela, principalmente dispositivos móveis e desktops.
-
-Além disso, o Bootstrap facilitará a padronização visual do StreamList e permitirá um desenvolvimento mais rápido das interfaces da aplicação.
+A escolha do Bootstrap 5 foi realizada devido à sua facilidade de utilização, documentação, sistema de grid e recursos para criação de interfaces responsivas. O framework permitirá desenvolver layouts adaptáveis para diferentes dispositivos, como celulares, tablets e computadores, além de contribuir para a criação de uma identidade visual consistente para o StreamList.
 
 📦 Tecnologias e Dependências
 
@@ -58,8 +56,6 @@ GitHub
 
 O projeto utilizará a The Movie Database (TMDB) como API pública para obtenção de informações relacionadas aos filmes.
 
-A API será utilizada para fornecer dados reais que serão apresentados na aplicação, permitindo que os usuários pesquisem e consultem informações sobre diferentes títulos.
-
 Os dados poderão incluir:
 
 Título
@@ -72,7 +68,7 @@ Identificador do filme
 
 API: The Movie Database (TMDB)
 
-A escolha da TMDB se deve à sua grande base de dados de filmes e à variedade de informações disponibilizadas sobre cada título. A integração com a API permitirá que o StreamList ofereça uma experiência de descoberta mais completa e dinâmica, utilizando dados reais e atualizados sobre filmes.
+A escolha da TMDB foi realizada devido à sua ampla base de dados de filmes e à quantidade de informações disponibilizadas sobre cada título. A utilização da API permitirá que o StreamList trabalhe com dados reais, enriquecendo a experiência de pesquisa e descoberta de filmes dentro da aplicação.
 
 🚀 Link para o projeto em produção
 
@@ -159,9 +155,3 @@ Architecture
 Documento responsável pela especificação técnica, modelo de dados, relacionamentos e tecnologias utilizadas no projeto.
 
 📄 docs/architecture.md
-
-Specification
-
-Documento responsável pelo registro das especificações e versões das tecnologias utilizadas no projeto.
-
-📄 docs/spec.md
