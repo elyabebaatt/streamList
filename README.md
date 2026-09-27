@@ -2,217 +2,348 @@
 
 ## 👤 Identificação
 
-| Informação  | Detalhes                                          |
-| ----------- | ------------------------------------------------- |
-| **Aluno**   | Elyabe da Silva Batista                           |
-| **Projeto** | StreamList — Plataforma de Filmes                 |
-| **Tema**    | Descoberta, organização e gerenciamento de filmes |
+**Aluno:** Elyabe da Silva Batista
+**Projeto:** StreamList — Plataforma de Filmes
+**Tema:** Descoberta, organização e gerenciamento de filmes
 
 ---
 
-## 📖 Descrição do Projeto
+## 📖 Sobre o Projeto
 
-O **StreamList** é uma aplicação web responsiva desenvolvida para auxiliar usuários na **descoberta e organização de filmes**.
+O **StreamList** é uma aplicação web responsiva desenvolvida para auxiliar na **descoberta, consulta e organização de filmes**.
 
-A aplicação permitirá que o usuário pesquise filmes, visualize informações detalhadas sobre cada título e organize seus filmes em listas personalizadas.
+A plataforma permite pesquisar filmes, visualizar informações detalhadas e organizar conteúdos em diferentes listas, como:
 
-O sistema terá como objetivo centralizar a experiência de descoberta e organização de filmes em uma única aplicação, permitindo que o usuário mantenha seus filmes organizados de acordo com seus próprios interesses e preferências.
+* 🎬 Quero assistir
+* ❤️ Favoritos
+* ✅ Já assistidos
+* 📁 Listas personalizadas
 
-Entre as possibilidades de organização estão:
+O projeto possui finalidade **informativa e organizacional**, não oferecendo streaming ou reprodução de filmes.
 
-* 🎬 Filmes que o usuário deseja assistir;
-* ❤️ Filmes favoritos;
-* ✅ Filmes já assistidos;
-* 📋 Categorias personalizadas.
-
-> **Importante:** o StreamList possui caráter exclusivamente informativo e organizacional. A aplicação **não realizará serviços de streaming, disponibilização ou reprodução dos filmes**.
+As informações dos filmes serão obtidas através da **API pública do TMDB (The Movie Database)**.
 
 ---
 
-## 🎨 Prototipação
+## 🎯 Objetivo
 
-**Ferramenta:** Stitch / Figma
+O objetivo do StreamList é proporcionar uma experiência simples e organizada para que o usuário possa:
 
-O **Stitch** será utilizado inicialmente para a criação da prototipação das interfaces. Posteriormente, o projeto poderá ser refinado no **Figma** para ajustes mais específicos de layout e experiência do usuário.
+* Descobrir novos filmes;
+* Pesquisar filmes;
+* Visualizar informações detalhadas;
+* Organizar filmes em listas;
+* Criar listas personalizadas;
+* Marcar filmes como favoritos;
+* Alterar o status dos filmes;
+* Avaliar filmes;
+* Filtrar conteúdos.
+
+---
+
+## 🧩 Escopo
+
+### Funcionalidades
+
+* 🔎 Pesquisa de filmes
+* 🎬 Visualização de detalhes
+* 📚 Organização em listas
+* ❤️ Favoritos
+* ⭐ Avaliação
+* 🔄 Alteração de status
+* 📁 Listas personalizadas
+* 📝 Registro de filmes
+* ✏️ Edição de filmes
+* 🗑️ Exclusão de filmes
+* 🔍 Filtros
+* 👤 Perfil
+* 📱 Interface responsiva
+
+### Fora do escopo
+
+* Séries
+* Episódios
+* Temporadas
+* Streaming
+* Reprodução de filmes
+* Assinaturas
+* Pagamentos
+* Autenticação
+* Administração
+* Moderação
+* Comentários públicos
+* Chat
+* Rede social
+
+---
+
+## 🛠️ Tecnologias
+
+| Tecnologia          | Utilização                                  |
+| ------------------- | ------------------------------------------- |
+| **HTML5**           | Estrutura da aplicação                      |
+| **CSS3**            | Personalizações visuais                     |
+| **JavaScript ES6+** | Lógica e interatividade                     |
+| **Bootstrap 5**     | Framework CSS, componentes e responsividade |
+| **TMDB API**        | Dados dos filmes                            |
+
+---
+
+## 🅱️ Bootstrap 5
+
+O **Bootstrap 5** é o framework CSS oficial utilizado como base para a interface do StreamList.
+
+Ele será utilizado principalmente para:
+
+* Sistema de grid;
+* Responsividade;
+* Navbar;
+* Cards;
+* Modais;
+* Botões;
+* Formulários;
+* Badges;
+* Dropdowns.
+
+### Componentes destacados no protótipo
+
+* **Navbar**
+* **Card**
+* **Modal**
+
+O CSS próprio do projeto será utilizado para complementar e personalizar a identidade visual.
 
 ---
 
 ## 🎨 Design System
 
-**Documento:** A definir
+O StreamList utiliza uma identidade visual chamada **Cinematic Dark Grid**, baseada em uma interface escura com elementos em roxo e detalhes em laranja.
 
-O Design System será definido durante o desenvolvimento do projeto, estabelecendo padrões visuais para cores, tipografia, componentes, espaçamentos e demais elementos da interface.
+### 🎨 Paleta de Cores
 
----
+| Token         | Valor     | Utilização                          |
+| ------------- | --------- | ----------------------------------- |
+| **Primary**   | `#6C63FF` | Ações e destaques principais        |
+| **Secondary** | `#222634` | Superfícies e elementos secundários |
+| **Tertiary**  | `#FFA502` | Destaques complementares            |
+| **Neutral**   | `#0F1117` | Fundo principal                     |
 
-## 🧩 Framework CSS
+### 🔤 Tipografia
 
-**Framework:** Bootstrap 5
+**Inter**
 
-O projeto utilizará o **Bootstrap 5** como framework CSS principal para a criação dos layouts e componentes da aplicação.
-
-A escolha do Bootstrap 5 foi realizada devido à sua facilidade de utilização, documentação, sistema de grid e recursos para criação de interfaces responsivas.
-
-O framework permitirá desenvolver layouts adaptáveis para diferentes dispositivos, como **celulares, tablets e computadores**, além de contribuir para a criação de uma identidade visual consistente para o StreamList.
-
----
-
-## 📦 Tecnologias
-
-As principais tecnologias utilizadas no projeto serão:
-
-| Tecnologia          | Utilização                                           |
-| ------------------- | ---------------------------------------------------- |
-| **HTML5**           | Estrutura da aplicação                               |
-| **CSS3**            | Estilização e personalização da interface            |
-| **JavaScript ES6+** | Lógica e interações da aplicação                     |
-| **Bootstrap 5**     | Framework CSS para layouts e componentes responsivos |
-| **TMDB API**        | Fornecimento das informações dos filmes              |
-
-> Serão utilizadas as versões mais recentes e estáveis das tecnologias no momento do desenvolvimento.
+Utilizada em títulos, textos, botões, menus e demais elementos da interface.
 
 ---
 
-## 🌐 API Pública
+## 📱 Responsividade
 
-### The Movie Database — TMDB
+O StreamList foi projetado para funcionar em diferentes tamanhos de tela:
 
-O projeto utilizará a **The Movie Database (TMDB)** como API pública para obtenção de informações relacionadas aos filmes.
+* 📱 **Mobile**
+* 📲 **Tablet**
+* 🖥️ **Desktop**
+
+A interface adapta elementos como:
+
+* Navegação;
+* Cards;
+* Grids;
+* Formulários;
+* Filtros;
+* Informações dos filmes;
+* Botões;
+* Espaçamentos.
+
+A responsividade será implementada utilizando o sistema de breakpoints do **Bootstrap 5**.
+
+---
+
+## 🔌 API
+
+### TMDB — The Movie Database
+
+O StreamList utilizará a API pública do TMDB como fonte de informações dos filmes.
 
 Os dados utilizados poderão incluir:
 
-| Dado                   | Descrição                        |
-| ---------------------- | -------------------------------- |
-| **Título**             | Nome do filme                    |
-| **Pôster**             | Imagem do filme                  |
-| **Sinopse**            | Descrição da história            |
-| **Data de lançamento** | Data de lançamento do filme      |
-| **Gêneros**            | Categorias relacionadas ao filme |
-| **Avaliação**          | Nota do filme                    |
-| **Identificador**      | Identificador único do filme     |
+* ID;
+* Título;
+* Sinopse;
+* Pôster;
+* Data de lançamento;
+* Gêneros;
+* Avaliação;
+* Informações relacionadas.
 
-A escolha da TMDB foi realizada devido à sua ampla base de dados de filmes e à quantidade de informações disponibilizadas sobre cada título.
+### Fluxo
 
-A utilização da API permitirá que o StreamList trabalhe com **dados reais**, enriquecendo a experiência de pesquisa e descoberta de filmes dentro da aplicação.
-
----
-
-## 🚀 Link para o Projeto em Produção
-
-**URL:** A definir
-
----
-
-## 📋 Checklist de Funcionalidades
-
-### RA1 — Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos
-
-* [ ] **ID 01** — Prototipa interfaces adaptáveis para mobile e desktop.
-* [ ] **ID 02** — Implementa layout responsivo com Framework CSS utilizando Flexbox ou Grid.
-* [ ] **ID 03** — Implementa layout responsivo com CSS puro utilizando Flexbox ou Grid Layout.
-* [ ] **ID 04** — Utiliza componentes prontos de um Framework CSS e componentes JavaScript do framework.
-* [ ] **ID 05** — Utiliza unidades relativas para criação de layouts fluidos.
-* [ ] **ID 06** — Aplica um Design System consistente.
-* [ ] **ID 07** — Utiliza Sass/SCSS com variáveis, mixins e funções.
-* [ ] **ID 08** — Aplica tipografia responsiva ou fluida.
-* [ ] **ID 09** — Utiliza técnicas de responsividade de imagens com CSS.
-* [ ] **ID 10** — Otimiza imagens utilizando formatos modernos e carregamento adaptativo.
-
-### RA2 — Realizar tratamento de formulários e aplicar validações customizadas no lado cliente
-
-* [ ] **ID 11** — Implementa validação HTML nativa.
-* [ ] **ID 12** — Utiliza expressões regulares (REGEX).
-* [ ] **ID 13** — Utiliza elementos de seleção em formulários.
-* [ ] **ID 14** — Utiliza Web Storage para persistência local.
-
-### RA3 — Aplicar ferramentas para otimização do processo de desenvolvimento web
-
-* [ ] **ID 15** — Configura ambiente com Node.js e NPM.
-* [ ] **ID 16** — Utiliza boas práticas de versionamento com Git/GitHub.
-* [ ] **ID 17** — Mantém README.md padronizado.
-* [ ] **ID 18** — Organiza os arquivos de forma modular.
-* [ ] **ID 19** — Configura linters e formatadores.
-
-### RA4 — Aplicar bibliotecas de funções e componentes em JavaScript
-
-* [ ] **ID 20** — Utiliza bibliotecas ou componentes JavaScript relevantes para a aplicação.
-* [ ] **ID 21** — Integra e configura recursos externos ou plugins relevantes ao projeto.
-
-### RA5 — Efetuar requisições assíncronas para APIs
-
-* [ ] **ID 22** — Realiza requisições assíncronas para API fake para persistência.
-* [ ] **ID 23** — Realiza requisições assíncronas para API fake para exibição.
-* [ ] **ID 24** — Realiza requisições assíncronas para uma API pública real.
-
----
-
-## ▶️ Instruções de Execução
-
-As instruções de instalação e execução serão adicionadas conforme o desenvolvimento do projeto.
-
-### Pré-requisitos
-
-Para executar o projeto localmente, será necessário possuir:
-
-* **Node.js**
-* **NPM**
-* **Git**
-
-### Instalação
-
-Clone o repositório:
-
-```bash
-git clone <URL_DO_REPOSITORIO>
+```text
+Usuário
+   ↓
+StreamList
+   ↓
+JavaScript
+   ↓
+TMDB API
+   ↓
+Dados dos filmes
+   ↓
+Interface
 ```
 
-Acesse a pasta do projeto:
-
-```bash
-cd StreamList
-```
-
-As instruções específicas para instalação das dependências serão adicionadas durante o desenvolvimento.
-
 ---
 
-## 🖥️ Telas da Aplicação
+## 🎨 Protótipo
 
-As telas serão desenvolvidas a partir da etapa de prototipação e implementadas posteriormente no frontend.
+O protótipo do StreamList foi desenvolvido no **Google Stitch**.
 
-Inicialmente, estão previstas as seguintes telas:
+A aplicação possui versões responsivas para:
 
-| Tela                      | Descrição                        |
-| ------------------------- | -------------------------------- |
-| **Tela de Login**         | Acesso do usuário                |
-| **Tela de Cadastro**      | Criação de usuário               |
-| **Página Inicial**        | Descoberta de filmes             |
-| **Busca de Filmes**       | Pesquisa de filmes               |
-| **Detalhes do Filme**     | Informações detalhadas           |
-| **Minhas Listas**         | Organização dos filmes           |
-| **Visualização de Lista** | Exibição dos filmes de uma lista |
-| **Perfil do Usuário**     | Informações do usuário           |
+* Mobile;
+* Tablet;
+* Desktop.
+
+### Telas principais
+
+* 🏠 Descobrir
+* 🔎 Buscar
+* 🎬 Detalhes do Filme
+* 📚 Minhas Listas
+* 📝 Registrar/Editar Filme
+* 👤 Perfil
+
+### Fluxo principal
+
+```text
+Descobrir
+    ↓
+Buscar
+    ↓
+Selecionar Filme
+    ↓
+Detalhes do Filme
+    ↓
+Adicionar à Lista
+    ↓
+Minhas Listas
+```
 
 ---
 
 ## 📚 Documentação
 
-A documentação técnica do projeto está disponível no diretório `docs/`.
+A documentação do projeto está disponível na pasta `docs/`.
 
-### Product Requirements Document
+### PRD — Product Requirements Document
 
-Documento responsável pela definição dos requisitos, objetivos e funcionalidades do StreamList.
+Documento responsável pela definição do produto, contendo:
 
-📄 [`docs/prd.md`](docs/prd.md)
+* Objetivo;
+* Público-alvo;
+* Funcionalidades;
+* User Stories;
+* Regras de negócio;
+* Escopo;
+* MVP.
 
-### Architecture
+→ [`docs/prd.md`](docs/prd.md)
 
-Documento responsável pela especificação da arquitetura e organização do projeto.
+### Architecture — Technical Specification
 
-📄 [`docs/architecture.md`](docs/architecture.md)
+Documento responsável pela especificação técnica do projeto, contendo:
 
-### Tech Spec
+* Arquitetura;
+* Tecnologias;
+* Bootstrap 5;
+* TMDB API;
+* Design System;
+* Design Tokens;
+* Responsividade;
+* Componentes;
+* Estrutura do projeto.
 
-Documento responsável pela especificação técnica, modelo de dados e tecnologias utilizadas no projeto.
+→ [`docs/architecture.md`](docs/architecture.md)
 
-📄 [`docs/tech-spec.md`](docs/tech-spec.md)
+---
+
+## 📁 Estrutura do Projeto
+
+```text
+StreamList/
+│
+├── docs/
+│   ├── prd.md
+│   └── architecture.md
+│
+├── README.md
+│
+└── src/
+    ├── index.html
+    ├── css/
+    ├── js/
+    └── assets/
+```
+
+A estrutura de implementação poderá ser ajustada durante a próxima etapa do projeto.
+
+---
+
+## 🚧 Status do Projeto
+
+### 1ª Entrega — Concepção, Prototipação e Documentação
+
+* [x] Definição do tema
+* [x] Definição do escopo
+* [x] Criação do repositório
+* [x] Criação do PRD
+* [x] Criação da especificação técnica
+* [x] Definição da API
+* [x] Definição do Bootstrap 5
+* [x] Definição do Design System
+* [x] Definição da paleta de cores
+* [x] Definição da tipografia
+* [x] Criação do protótipo
+* [x] Protótipo Mobile
+* [x] Protótipo Tablet
+* [x] Protótipo Desktop
+* [x] Responsividade
+* [x] Navegação entre telas
+* [x] Identificação dos componentes Bootstrap
+* [ ] Gravação do vídeo de apresentação
+* [ ] Entrega no Moodle
+
+---
+
+## 🎥 Apresentação
+
+A apresentação da primeira entrega deverá demonstrar:
+
+### GitHub
+
+* Repositório público;
+* PRD;
+* Architecture;
+* Tema;
+* API utilizada;
+* Bootstrap 5.
+
+### Protótipo
+
+* Versão Mobile;
+* Versão Tablet;
+* Versão Desktop;
+* Navegação;
+* Fluxo principal;
+* Design System;
+* Paleta de cores;
+* Tipografia;
+* Componentes Bootstrap.
+
+### Vídeo
+
+O vídeo de apresentação será disponibilizado como **não listado no YouTube** para a entrega da atividade.
+
+---
+
+
