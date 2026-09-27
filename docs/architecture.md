@@ -1,7 +1,5 @@
 
----
 
-# 2. `docs/architecture.md`
 
 ```md
 # StreamList — Architecture & Technical Specification
